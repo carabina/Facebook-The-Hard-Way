@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FBDE8F5184B865D003F0CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8F4184B865D003F0CA4 /* Foundation.framework */; };
+		6FBDE8F7184B865D003F0CA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8F6184B865D003F0CA4 /* CoreGraphics.framework */; };
+		6FBDE8F9184B865D003F0CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8F8184B865D003F0CA4 /* UIKit.framework */; };
+		6FBDE8FF184B865D003F0CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FBDE8FD184B865D003F0CA4 /* InfoPlist.strings */; };
+		6FBDE901184B865D003F0CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDE900184B865D003F0CA4 /* main.m */; };
+		6FBDE905184B865D003F0CA4 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDE904184B865D003F0CA4 /* CCAppDelegate.m */; };
+		6FBDE908184B865D003F0CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBDE906184B865D003F0CA4 /* Main.storyboard */; };
+		6FBDE90B184B865D003F0CA4 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDE90A184B865D003F0CA4 /* CCViewController.m */; };
+		6FBDE90D184B865D003F0CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBDE90C184B865D003F0CA4 /* Images.xcassets */; };
+		6FBDE914184B865D003F0CA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE913184B865D003F0CA4 /* XCTest.framework */; };
+		6FBDE915184B865D003F0CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8F4184B865D003F0CA4 /* Foundation.framework */; };
+		6FBDE916184B865D003F0CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8F8184B865D003F0CA4 /* UIKit.framework */; };
+		6FBDE91E184B865D003F0CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FBDE91C184B865D003F0CA4 /* InfoPlist.strings */; };
+		6FBDE920184B865D003F0CA4 /* Facebook_The_Hard_WayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDE91F184B865D003F0CA4 /* Facebook_The_Hard_WayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FBDE917184B865D003F0CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FBDE8E9184B865D003F0CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FBDE8F0184B865D003F0CA4;
+			remoteInfo = "Facebook The Hard Way";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FBDE8F1184B865D003F0CA4 /* Facebook The Hard Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook The Hard Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBDE8F4184B865D003F0CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FBDE8F6184B865D003F0CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FBDE8F8184B865D003F0CA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FBDE8FC184B865D003F0CA4 /* Facebook The Hard Way-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Facebook The Hard Way-Info.plist"; sourceTree = "<group>"; };
+		6FBDE8FE184B865D003F0CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FBDE900184B865D003F0CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FBDE902184B865D003F0CA4 /* Facebook The Hard Way-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook The Hard Way-Prefix.pch"; sourceTree = "<group>"; };
+		6FBDE903184B865D003F0CA4 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		6FBDE904184B865D003F0CA4 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		6FBDE907184B865D003F0CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FBDE909184B865D003F0CA4 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		6FBDE90A184B865D003F0CA4 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		6FBDE90C184B865D003F0CA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FBDE912184B865D003F0CA4 /* Facebook The Hard WayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook The Hard WayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBDE913184B865D003F0CA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6FBDE91B184B865D003F0CA4 /* Facebook The Hard WayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Facebook The Hard WayTests-Info.plist"; sourceTree = "<group>"; };
+		6FBDE91D184B865D003F0CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FBDE91F184B865D003F0CA4 /* Facebook_The_Hard_WayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facebook_The_Hard_WayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FBDE8EE184B865D003F0CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE8F7184B865D003F0CA4 /* CoreGraphics.framework in Frameworks */,
+				6FBDE8F9184B865D003F0CA4 /* UIKit.framework in Frameworks */,
+				6FBDE8F5184B865D003F0CA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBDE90F184B865D003F0CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE914184B865D003F0CA4 /* XCTest.framework in Frameworks */,
+				6FBDE916184B865D003F0CA4 /* UIKit.framework in Frameworks */,
+				6FBDE915184B865D003F0CA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FBDE8E8184B865D003F0CA4 = {
+			isa = PBXGroup;
+			children = (
+				6FBDE8FA184B865D003F0CA4 /* Facebook The Hard Way */,
+				6FBDE919184B865D003F0CA4 /* Facebook The Hard WayTests */,
+				6FBDE8F3184B865D003F0CA4 /* Frameworks */,
+				6FBDE8F2184B865D003F0CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FBDE8F2184B865D003F0CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE8F1184B865D003F0CA4 /* Facebook The Hard Way.app */,
+				6FBDE912184B865D003F0CA4 /* Facebook The Hard WayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FBDE8F3184B865D003F0CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE8F4184B865D003F0CA4 /* Foundation.framework */,
+				6FBDE8F6184B865D003F0CA4 /* CoreGraphics.framework */,
+				6FBDE8F8184B865D003F0CA4 /* UIKit.framework */,
+				6FBDE913184B865D003F0CA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FBDE8FA184B865D003F0CA4 /* Facebook The Hard Way */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE903184B865D003F0CA4 /* CCAppDelegate.h */,
+				6FBDE904184B865D003F0CA4 /* CCAppDelegate.m */,
+				6FBDE906184B865D003F0CA4 /* Main.storyboard */,
+				6FBDE909184B865D003F0CA4 /* CCViewController.h */,
+				6FBDE90A184B865D003F0CA4 /* CCViewController.m */,
+				6FBDE90C184B865D003F0CA4 /* Images.xcassets */,
+				6FBDE8FB184B865D003F0CA4 /* Supporting Files */,
+			);
+			path = "Facebook The Hard Way";
+			sourceTree = "<group>";
+		};
+		6FBDE8FB184B865D003F0CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE8FC184B865D003F0CA4 /* Facebook The Hard Way-Info.plist */,
+				6FBDE8FD184B865D003F0CA4 /* InfoPlist.strings */,
+				6FBDE900184B865D003F0CA4 /* main.m */,
+				6FBDE902184B865D003F0CA4 /* Facebook The Hard Way-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FBDE919184B865D003F0CA4 /* Facebook The Hard WayTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE91F184B865D003F0CA4 /* Facebook_The_Hard_WayTests.m */,
+				6FBDE91A184B865D003F0CA4 /* Supporting Files */,
+			);
+			path = "Facebook The Hard WayTests";
+			sourceTree = "<group>";
+		};
+		6FBDE91A184B865D003F0CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDE91B184B865D003F0CA4 /* Facebook The Hard WayTests-Info.plist */,
+				6FBDE91C184B865D003F0CA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FBDE8F0184B865D003F0CA4 /* Facebook The Hard Way */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBDE923184B865D003F0CA4 /* Build configuration list for PBXNativeTarget "Facebook The Hard Way" */;
+			buildPhases = (
+				6FBDE8ED184B865D003F0CA4 /* Sources */,
+				6FBDE8EE184B865D003F0CA4 /* Frameworks */,
+				6FBDE8EF184B865D003F0CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook The Hard Way";
+			productName = "Facebook The Hard Way";
+			productReference = 6FBDE8F1184B865D003F0CA4 /* Facebook The Hard Way.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FBDE911184B865D003F0CA4 /* Facebook The Hard WayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBDE926184B865D003F0CA4 /* Build configuration list for PBXNativeTarget "Facebook The Hard WayTests" */;
+			buildPhases = (
+				6FBDE90E184B865D003F0CA4 /* Sources */,
+				6FBDE90F184B865D003F0CA4 /* Frameworks */,
+				6FBDE910184B865D003F0CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FBDE918184B865D003F0CA4 /* PBXTargetDependency */,
+			);
+			name = "Facebook The Hard WayTests";
+			productName = "Facebook The Hard WayTests";
+			productReference = 6FBDE912184B865D003F0CA4 /* Facebook The Hard WayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FBDE8E9184B865D003F0CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Coalition";
+				TargetAttributes = {
+					6FBDE911184B865D003F0CA4 = {
+						TestTargetID = 6FBDE8F0184B865D003F0CA4;
+					};
+				};
+			};
+			buildConfigurationList = 6FBDE8EC184B865D003F0CA4 /* Build configuration list for PBXProject "Facebook The Hard Way" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FBDE8E8184B865D003F0CA4;
+			productRefGroup = 6FBDE8F2184B865D003F0CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FBDE8F0184B865D003F0CA4 /* Facebook The Hard Way */,
+				6FBDE911184B865D003F0CA4 /* Facebook The Hard WayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FBDE8EF184B865D003F0CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE90D184B865D003F0CA4 /* Images.xcassets in Resources */,
+				6FBDE8FF184B865D003F0CA4 /* InfoPlist.strings in Resources */,
+				6FBDE908184B865D003F0CA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBDE910184B865D003F0CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE91E184B865D003F0CA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FBDE8ED184B865D003F0CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE905184B865D003F0CA4 /* CCAppDelegate.m in Sources */,
+				6FBDE901184B865D003F0CA4 /* main.m in Sources */,
+				6FBDE90B184B865D003F0CA4 /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBDE90E184B865D003F0CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBDE920184B865D003F0CA4 /* Facebook_The_Hard_WayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FBDE918184B865D003F0CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FBDE8F0184B865D003F0CA4 /* Facebook The Hard Way */;
+			targetProxy = 6FBDE917184B865D003F0CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FBDE8FD184B865D003F0CA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBDE8FE184B865D003F0CA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6FBDE906184B865D003F0CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBDE907184B865D003F0CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FBDE91C184B865D003F0CA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBDE91D184B865D003F0CA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FBDE921184B865D003F0CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FBDE922184B865D003F0CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FBDE924184B865D003F0CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook The Hard Way/Facebook The Hard Way-Prefix.pch";
+				INFOPLIST_FILE = "Facebook The Hard Way/Facebook The Hard Way-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6FBDE925184B865D003F0CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook The Hard Way/Facebook The Hard Way-Prefix.pch";
+				INFOPLIST_FILE = "Facebook The Hard Way/Facebook The Hard Way-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6FBDE927184B865D003F0CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Facebook The Hard Way.app/Facebook The Hard Way";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook The Hard Way/Facebook The Hard Way-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Facebook The Hard WayTests/Facebook The Hard WayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6FBDE928184B865D003F0CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Facebook The Hard Way.app/Facebook The Hard Way";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook The Hard Way/Facebook The Hard Way-Prefix.pch";
+				INFOPLIST_FILE = "Facebook The Hard WayTests/Facebook The Hard WayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FBDE8EC184B865D003F0CA4 /* Build configuration list for PBXProject "Facebook The Hard Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBDE921184B865D003F0CA4 /* Debug */,
+				6FBDE922184B865D003F0CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FBDE923184B865D003F0CA4 /* Build configuration list for PBXNativeTarget "Facebook The Hard Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBDE924184B865D003F0CA4 /* Debug */,
+				6FBDE925184B865D003F0CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FBDE926184B865D003F0CA4 /* Build configuration list for PBXNativeTarget "Facebook The Hard WayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBDE927184B865D003F0CA4 /* Debug */,
+				6FBDE928184B865D003F0CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FBDE8E9184B865D003F0CA4 /* Project object */;
+}
